@@ -236,7 +236,8 @@ footer {
 
 @media (max-width: 768px) {
   .logo {
-    width: 80px; /* Reduce logo size */
+    width: 70px; /* Reduce logo size */
+    align-items: center;
   }
 
   .navbar {
@@ -249,7 +250,7 @@ footer {
   }
 
   .nav-left ul li a {
-    font-size: 10px; /* Adjust font size */
+    font-size: 8px; /* Adjust font size */
   }
 
   .icons {
@@ -257,7 +258,7 @@ footer {
   }
 
   .icons img {
-    width: 15px; /* Adjust icon size */
+    width: 10px; /* Adjust icon size */
     transform: none;
   }
 
