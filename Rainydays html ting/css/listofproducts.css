@@ -258,7 +258,7 @@ footer {
 
   .icons img {
     width: 20px; /* Adjust icon size */
-    transform: scale(0.6); /* Adjust scale */
+    transform: none;
   }
 
 
