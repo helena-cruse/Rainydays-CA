@@ -239,12 +239,12 @@ footer {
     width: 70px; /* Reduce logo size */
     align-items: center;
     margin-bottom: 10px;
-    padding: 0;
   }
 
   .navbar {
     height: 70px;
-    padding: 0 20px; /* Reduce padding */
+    padding: 0 10px; /* Reduce padding */
+    gap: 5px;
   }
 
   .nav-left ul {
