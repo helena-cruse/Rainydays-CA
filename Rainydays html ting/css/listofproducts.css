@@ -235,5 +235,18 @@ footer {
 
 
 
-@media (max-width: 768px) 
-  
+@media all and (max-width: 768px) {
+  .nav-left {
+font-size: 1.5rem;
+
+  }
+
+  .icons {
+    width: 1.5rem;
+  }
+
+  .logo {
+    width: 2rem;
+  }
+}
+
