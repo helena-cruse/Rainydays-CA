@@ -235,36 +235,30 @@ footer {
 
 
 
-@media all and (max-width: 768px) {
-  .navbar{
-    flex-direction: row;
-  } 
-  
-  .nav-left {
-font-size: 14px;
+@media (max-width: 768px) {
+  .logo {
+    width: 100px; /* Reduce logo size */
+  }
 
+  .navbar {
+    height: 60px;
+    padding: 0 20px; /* Reduce padding */
+  }
+
+  .nav-left ul {
+    gap: 30px; /* Reduce gap between items */
+  }
+
+  .nav-left ul li a {
+    font-size: 14px; /* Adjust font size */
   }
 
   .icons {
-    width: 14px;
+    gap: 30px; /* Reduce gap between icons */
   }
 
-  .logo {
-    size: 20px;
+  .icons img {
+    width: 30px; /* Adjust icon size */
+    transform: scale(0.6); /* Adjust scale */
   }
-
-  .products-grid {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-  }
-
-  .product-card {
-    flex-direction: column;
-  }
-
-
-
 }
-
