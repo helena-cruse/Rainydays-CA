@@ -265,9 +265,11 @@ footer {
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 5px;
+    align-items: center;
+    margin: auto;
     height: auto;
+    width: 100vw;
+  
   }
 
   .nav-left ul {
