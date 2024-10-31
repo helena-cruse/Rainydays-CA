@@ -124,46 +124,11 @@ footer {
   }
 
 
-  @media (max-width: 1024px) {
-    .navbar {
-      padding: 0 20px;
-    }
-
-    .nav-left ul {
-      gap: 40px;
-    }
-
-    .icons {
-      gap: 30px;
-    }
-
-    .icons img {
-      width: 35px;
-    }
-
-    .About-us img {
-      width: 200px;
-      margin-left: 50%;
-      transform: translateX(-50%);
-      margin-top: 60px;
-    }
-
-    p {
-      margin: 50px;
-      font-size: 16px;
-    }
-
-    .footer-text {
-      font-size: 12px;
-      max-width: 90%;
-    }
-  }
-
+  
   @media (max-width: 768px) {
     .navbar {
       flex-direction: column;
       align-items: center;
-      padding: 10px;
       height: auto;
     }
 

@@ -236,17 +236,21 @@ footer {
 
 
 @media all and (max-width: 768px) {
+  .navbar{
+    flex-direction: row;
+  } 
+  
   .nav-left {
-font-size: 8px;
+font-size: 14px;
 
   }
 
   .icons {
-    width: 0.5rem;
+    width: 14px;
   }
 
   .logo {
-    width: 1.5rem;
+    size: 20px;
   }
 
   .products-grid {
