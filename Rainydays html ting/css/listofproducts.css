@@ -236,28 +236,28 @@ footer {
 
 @media (max-width: 768px) {
   .logo {
-    width: 100px; /* Reduce logo size */
+    width: 80px; /* Reduce logo size */
   }
 
   .navbar {
-    height: 60px;
+    height: 70px;
     padding: 0 20px; /* Reduce padding */
   }
 
   .nav-left ul {
-    gap: 30px; /* Reduce gap between items */
+    gap: 8px; /* Reduce gap between items */
   }
 
   .nav-left ul li a {
-    font-size: 14px; /* Adjust font size */
+    font-size: 10px; /* Adjust font size */
   }
 
   .icons {
-    gap: 30px; /* Reduce gap between icons */
+    gap: 8px; /* Reduce gap between icons */
   }
 
   .icons img {
-    width: 30px; /* Adjust icon size */
+    width: 20px; /* Adjust icon size */
     transform: scale(0.6); /* Adjust scale */
   }
 
