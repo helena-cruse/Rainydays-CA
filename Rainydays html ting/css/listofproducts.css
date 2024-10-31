@@ -238,6 +238,8 @@ footer {
   .logo {
     width: 70px; /* Reduce logo size */
     align-items: center;
+    margin-bottom: 10px;
+    padding: 0;
   }
 
   .navbar {
@@ -250,7 +252,7 @@ footer {
   }
 
   .nav-left ul li a {
-    font-size: 8px; /* Adjust font size */
+    font-size: 10px; /* Adjust font size */
   }
 
   .icons {
@@ -258,7 +260,7 @@ footer {
   }
 
   .icons img {
-    width: 10px; /* Adjust icon size */
+    width: 13px; /* Adjust icon size */
     transform: none;
   }
 
