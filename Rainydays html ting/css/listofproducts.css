@@ -234,7 +234,6 @@ footer {
 /* media quieries */
 
 
-
 @media (max-width: 768px) {
   .logo {
     width: 100px; /* Reduce logo size */
@@ -261,4 +260,20 @@ footer {
     width: 30px; /* Adjust icon size */
     transform: scale(0.6); /* Adjust scale */
   }
+
+
+  .products-grid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .product-card {
+    flex-direction: column;
+  }
+
+
+
 }
+
