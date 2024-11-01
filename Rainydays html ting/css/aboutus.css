@@ -162,10 +162,12 @@ footer {
     }
 
     .About-us img {
-      display: flex;
+      display: block;
+      max-width: 100%;
       justify-content: center;
       align-items: center;
-      margin: 0;
+      margin: 0 auto;
+      height: auto;
     }
 
     p {
