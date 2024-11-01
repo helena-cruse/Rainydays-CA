@@ -160,17 +160,9 @@ margin-top: 15px;
   
 
   
-  
-    .products-grid {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-  
-    }
-  
-    .product-card {
-      flex-direction: column;
-    }
+  .contant-container {
+    flex-direction: column;
+  }
   
   
 
