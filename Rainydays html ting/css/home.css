@@ -130,12 +130,14 @@ html, body{
   .icons {
     width: 15px;
     object-fit: contain;
+    justify-content: flex-end;
     
   }
 
   .nav-left {
     width: 15px;
     object-fit: contain;
+    justify-content: flex-start;
     
   }
 
