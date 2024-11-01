@@ -124,43 +124,53 @@ html, body{
   color: black;
 }
 
-/* tablet style*/
+@media (max-width: 768px) {
+  /* Logo adjustments */
+  .logo {
+      width: 80px; /* Smaller logo for mobile */
+      height: auto;
+      margin: 0; /* Centered without extra margin */
+  }
 
-@media (max-width: 1024px) {
+  /* Navbar adjustments */
   .navbar {
-    padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px; /* Reduced padding for smaller screens */
+      height: 60px; /* Adjusted height to fit content */
+      background-color: white;
   }
 
+  /* Left navigation section adjustments */
   .nav-left ul {
-    gap: 40px;
+      display: flex;
+      gap: 10px; /* Minimal gap between items */
+      padding: 0;
+      margin: 0;
   }
 
+  .nav-left ul li a {
+      font-size: 12px; /* Smaller font size for links */
+      text-decoration: none;
+      color: rgb(81, 97, 98);
+      font-weight: bold;
+  }
+
+  /* Right section with icons */
   .icons {
-    gap: 30px;
+      display: flex;
+      gap: 10px; /* Minimal gap between icons */
+      align-items: center;
+      padding: 0;
+      margin: 0;
   }
 
   .icons img {
-    width: 35px;
-  }
-
-  .hero {
-  min-height: 600px;
-  }
-
-  .hero h1 {
-    font-size: 32px;
-    margin-bottom: 15px;
-    margin-top: 0;
-  }
-
-  .hero-text
-  {
-  margin-top:0;
-  }
-
-  .hero .btn {
-padding: 6px 16px;
-font-size: 13px;
+      width: 20px; /* Reduced icon size to fit within navbar */
+      height: auto;
+      transform: none; /* Remove any additional scaling */
   }
 }
+
 
