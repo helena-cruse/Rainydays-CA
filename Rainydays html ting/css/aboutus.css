@@ -132,16 +132,33 @@ footer {
       overflow-x: hidden;
     }
     .navbar {
+      display: flex;
       padding: 0;
+      width: 100vw;
+
+    }
+
+    .nav-left {
+      flex: 1;
 
     }
 
     .nav-left ul li a {
-      gap: 10px;
-      font-size: 13px;
+      gap: 5px;
+      font-size: 12px;
     }
 
+    .logo {
+      flex: 1;
+    }
 
+    .icons {
+      flex: 1;
+    }
+
+    .icons img {
+
+    }
 
 
 
