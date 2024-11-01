@@ -1,6 +1,7 @@
 html, body{
   height: 100%;
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 .logo {
   width: 140px;
@@ -127,6 +128,10 @@ html, body{
 
   
   @media (max-width: 768px) {
+
+    body {
+      margin: 0;
+    }
     .hero-text {
       color: rgb(81, 97, 98);
       font-size: 13px;
