@@ -150,6 +150,12 @@ html, body{
   .hero h1 {
     font-size: 32px;
     margin-bottom: 15px;
+    margin-top: 0;
+  }
+
+  .hero-text
+  {
+  margin-top:0;
   }
 
   .hero .btn {
@@ -158,78 +164,3 @@ font-size: 13px;
   }
 }
 
-/* mobile style*/
-
-@media (max-width: 768px) {
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    text-align: center;
-    width: 15px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-    padding: 0 5px; 
-    gap: 5px;
-  
-  }
-
-  .nav-left {
-    display: flex;
-    gap: 8px;
-    margin-left: 10px;
-    flex: 1;
-  }
-
-  .nav-left ul {
-    gap: 8px; 
-    display: flex;
-  
-  }
-
-  .nav-left ul li a {
-    font-size: 10px; 
-  }
-
-  .icons {
-    display: flex;
-    gap: 8px; 
-    margin-right: 10px;
-    align-items: center;
-    flex: 1;
-    justify-content: flex-end;
-  }
-
-  .icons img {
-    width: 8px; 
-    transform: none;
-  }
-
-  .hero {
-  height: 100vh;
-    margin-top: 10px;
-    padding-bottom: 0;
-  }
-
-  .hero h1 {
-    font-size: 10px;
-    margin-bottom: 10px;
-  }
-
-  .hero .btn {
-    padding: 6px 14px;
-    font-size: 8px;
-    border-width: 2px;
-  }
-
-  .hero-text {
-    margin-top: 15px;
-    padding: 5px;
-  }
-}
