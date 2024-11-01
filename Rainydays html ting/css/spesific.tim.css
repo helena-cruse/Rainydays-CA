@@ -194,33 +194,7 @@ body{
 
   /* Responsive design */
 
-  @media (max-width: 1024px) {
-    .product-details {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .product-info {
-        align-items: center;
-        text-align: center;
-    }
-
-    .buttons{
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .buttons button {
-        width: 100%;
-        
-    }
-
-    .product-image {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-  }
-
+  
   @media (max-width: 768px) {
     .navbar {
       flex-direction: column;

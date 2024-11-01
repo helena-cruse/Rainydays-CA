@@ -97,44 +97,7 @@ body{
 
 
 
-  /* tablet style*/
 
-  @media (max-width: 1024px) {
-    .terms-container {
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-
-  .terms-container h1 {
-    font-size: 18px;
-  }
-
-  .terms-container h2 {
-    font-size: 13px;
-  }
-
-  .terms-container p {
-    font-size: 13px;
-  }
-
-  .navbar {
-    padding: 0 20px;
-    height: 70px;
-  }
-
-  .nav-left ul {
-    gap: 40px;
-  }
-
-  .icons {
-    gap: 30px;
-  }
-
-  .icons img {
-    width: 35px;
-    transform: scale(0.4);
-  }
- }
 
  /* mobile style */
 

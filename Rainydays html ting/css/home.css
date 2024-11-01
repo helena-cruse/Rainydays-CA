@@ -171,11 +171,7 @@ html, body{
       height: auto;
       transform: none; /* Remove any additional scaling */
   }
-}
 
-
-@media (max-width: 768px) {
-  /* Hero section adjustments */
   .hero {
       min-height: 500px; /* Reduced height for mobile */
       margin-top: 5px;
