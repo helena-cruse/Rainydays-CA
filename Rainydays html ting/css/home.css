@@ -125,10 +125,26 @@ html, body{
 }
 
 @media (max-width: 768px) {
-  .icons img {
+
+  
+  .icons {
     width: 15%;
     aspect-ratio: 3/2;
     object-fit: contain;
     
   }
+
+  .nav-left {
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
+  }
+
+.logo {
+ width: 15%;
+aspect-ratio: 3/2;
+object-fit: contain;
+}
+
 }
