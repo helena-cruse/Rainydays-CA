@@ -127,7 +127,24 @@ footer {
 
   
   @media (max-width: 768px) {
+    .navbar {
+      padding: 0;
+      
+    }
+
+
+
+
+
+
      
+
+
+
+
+
+
+
 
     .About-us img {
       display: flex;
