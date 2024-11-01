@@ -70,6 +70,7 @@ html, body{
   display: flex;
   justify-content: center;
   overflow-x: hidden;
+}
 
 .hero::before {
   content: "";
@@ -82,7 +83,6 @@ html, body{
   z-index: 1;
 }
 
-}
 .hero-image {
   width: 100vw;
   height: auto;
@@ -125,87 +125,10 @@ html, body{
 }
 
 @media (max-width: 768px) {
-  /* Logo adjustments */
-  .logo {
-      width: 80px; /* Smaller logo for mobile */
-      height: auto;
-      margin: 0; /* Centered without extra margin */
-  }
-
-  /* Navbar adjustments */
-  .navbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 10px; /* Reduced padding for smaller screens */
-      height: 60px; /* Adjusted height to fit content */
-      background-color: white;
-  }
-
-  /* Left navigation section adjustments */
-  .nav-left ul {
-      display: flex;
-      gap: 10px; /* Minimal gap between items */
-      padding: 0;
-      margin: 0;
-  }
-
-  .nav-left ul li a {
-      font-size: 12px; /* Smaller font size for links */
-      text-decoration: none;
-      color: rgb(81, 97, 98);
-      font-weight: bold;
-  }
-
-  /* Right section with icons */
-  .icons {
-      display: flex;
-      gap: 10px; /* Minimal gap between icons */
-      align-items: center;
-      padding: 0;
-      margin: 0;
-  }
-
   .icons img {
-      width: 20px; /* Reduced icon size to fit within navbar */
-      height: auto;
-      transform: none; /* Remove any additional scaling */
-  }
-
-  .hero {
-      min-height: 500px; /* Reduced height for mobile */
-      margin-top: 5px;
-  }
-
-  .hero::before {
-      background-color: rgba(0, 0, 0, 0.7); /* Slightly dark overlay */
-  }
-
-  .hero-image {
-      width: 100vw;
-      height: auto;
-  }
-
-  .hero-text {
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      margin-top: 0;
-      padding: 5px; /* Reduced padding for mobile */
-      width: 90%; /* Constrain text to fit smaller screens */
-  }
-
-  /* Hero heading adjustments */
-  .hero h1 {
-      font-size: 24px; /* Smaller font for heading */
-      margin-bottom: 10px;
-  }
-
-  /* Hero button adjustments */
-  .hero .btn {
-      padding: 6px 16px; /* Smaller button padding */
-      font-size: 12px; /* Smaller font for button text */
-      border-width: 2px; /* Thinner border for mobile */
-      border-radius: 20px; /* Slightly smaller radius */
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
   }
 }
