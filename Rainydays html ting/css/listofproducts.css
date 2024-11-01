@@ -235,56 +235,7 @@ footer {
 
 
 @media (max-width: 768px) {
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    text-align: center;
-    width: 15px;
-  }
-
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-    padding: 0 5px; 
-    gap: 5px;
   
-  }
-
-  .nav-left {
-    display: flex;
-    gap: 8px;
-    margin-left: 10px;
-    flex: 1;
-  }
-
-  .nav-left ul {
-    gap: 8px; 
-    display: flex;
-  
-  }
-
-  .nav-left ul li a {
-    font-size: 10px; 
-  }
-
-  .icons {
-    display: flex;
-    gap: 8px; 
-    margin-right: 10px;
-    align-items: center;
-    flex: 1;
-    justify-content: flex-end;
-  }
-
-  .icons img {
-    width: 13px; 
-    transform: none;
-  }
-
 
   .products-grid {
     display: flex;
