@@ -136,6 +136,11 @@ footer {
 
     }
 
+    .nav-left ul li a {
+      gap: 10px;
+      font-size: 13px;
+    }
+
 
 
 
