@@ -32,6 +32,7 @@ p {
     display: block;
     margin: 0 auto;
     align-self: center;
+    height: 50px;
   }
   
   .navbar {
@@ -177,7 +178,7 @@ footer {
     }
 
     .About-us img {
-      width: 150px;
+      width: 80px;
       margin-top: 40px;
      align-items: center;
      display: flex;
