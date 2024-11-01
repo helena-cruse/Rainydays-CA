@@ -236,7 +236,7 @@ footer {
 
 @media (max-width: 768px) {
   .logo {
-    width: 70px; /* Reduce logo size */
+    width: 70px; 
     align-items: center;
     margin-bottom: 10px;
     margin-left: 5px;
@@ -245,24 +245,29 @@ footer {
 
   .navbar {
     height: 70px;
-    padding: 0 10px; /* Reduce padding */
+    padding: 0 5px; 
     gap: 5px;
+  
   }
 
   .nav-left ul {
-    gap: 8px; /* Reduce gap between items */
+    gap: 8px; 
+    margin-left: 10px;
+    margin-right: 0;
   }
 
   .nav-left ul li a {
-    font-size: 10px; /* Adjust font size */
+    font-size: 10px; 
   }
 
   .icons {
-    gap: 8px; /* Reduce gap between icons */
+    gap: 8px; 
+    margin-right: 10px;
+    margin-left: 0;
   }
 
   .icons img {
-    width: 13px; /* Adjust icon size */
+    width: 13px; 
     transform: none;
   }
 
