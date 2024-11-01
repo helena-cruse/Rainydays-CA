@@ -128,23 +128,30 @@ html, body{
 
   
   .icons {
-    width: 15%;
-    aspect-ratio: 3/2;
+    width: 15px;
     object-fit: contain;
     
   }
 
   .nav-left {
-    width: 15%;
-    aspect-ratio: 3/2;
+    width: 15px;
     object-fit: contain;
     
   }
 
 .logo {
- width: 15%;
-aspect-ratio: 3/2;
+ width: 15px;
 object-fit: contain;
 }
 
+}
+
+.hero-text {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.btn {
+  font: 12px;
+  object-fit: contain;
 }
