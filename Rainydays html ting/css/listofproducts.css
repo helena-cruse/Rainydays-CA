@@ -236,24 +236,34 @@ footer {
 
 @media (max-width: 768px) {
   .logo {
-    width: 70px; 
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    flex: 1;
+    text-align: center;
   }
 
   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 70px;
     padding: 0 5px; 
     gap: 5px;
   
   }
 
+  .nav-left {
+    display: flex;
+    gap: 8px;
+    margin-left: 10px;
+    flex: 1;
+  }
+
   .nav-left ul {
     gap: 8px; 
-    margin-left: 10px;
-    margin-right: 0;
+    display: flex;
+  
   }
 
   .nav-left ul li a {
@@ -261,9 +271,12 @@ footer {
   }
 
   .icons {
+    display: flex;
     gap: 8px; 
     margin-right: 10px;
-    margin-left: 0;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
   }
 
   .icons img {
