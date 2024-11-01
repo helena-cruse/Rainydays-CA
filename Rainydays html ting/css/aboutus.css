@@ -126,4 +126,36 @@ footer {
 
 
   
-  @media (max-width: 768px) {}
+  @media (max-width: 768px) {
+     
+
+    .About-us img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25px;
+    }
+
+    p {
+      margin: 20px;
+      font-size: 14px;
+    }
+
+    footer {
+      padding: 20px 10px;
+    }
+
+    .footer-logo img  {
+      height: 50px;
+    }
+
+    .footer-text {
+      font-size: 12px;
+      margin: 0 10px;
+    }
+
+    .footer-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
