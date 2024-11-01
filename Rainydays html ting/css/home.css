@@ -174,3 +174,42 @@ html, body{
 }
 
 
+@media (max-width: 768px) {
+  /* Hero section adjustments */
+  .hero {
+      min-height: 500px; /* Reduced height for mobile */
+      margin-top: 5px;
+  }
+
+  .hero::before {
+      background-color: rgba(0, 0, 0, 0.7); /* Slightly dark overlay */
+  }
+
+  .hero-image {
+      width: 100vw;
+      height: auto;
+  }
+
+  .hero-text {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: 0;
+      padding: 5px; /* Reduced padding for mobile */
+      width: 90%; /* Constrain text to fit smaller screens */
+  }
+
+  /* Hero heading adjustments */
+  .hero h1 {
+      font-size: 24px; /* Smaller font for heading */
+      margin-bottom: 10px;
+  }
+
+  /* Hero button adjustments */
+  .hero .btn {
+      padding: 6px 16px; /* Smaller button padding */
+      font-size: 12px; /* Smaller font for button text */
+      border-width: 2px; /* Thinner border for mobile */
+      border-radius: 20px; /* Slightly smaller radius */
+  }
+}
