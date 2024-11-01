@@ -136,6 +136,7 @@ html, body{
     .hero-text {
     color: rgb(81, 97, 98);
     width: 80%;
+    margin-top: 0;
     }
 
 
