@@ -126,6 +126,21 @@ html, body{
 
 
   
-  @media (max-width: 768px) {}
+  @media (max-width: 768px) {
+    .hero-text {
+      color: rgb(81, 97, 98);
+      font-size: 13px;
+      justify-content: center;
+      align-items: flex-end;
+    }
   
    
+  .btn {
+color:  rgb(81, 97, 98);
+font-size: 12px;
+border-color: rgb(81, 97, 98);
+justify-content: center;
+align-items: flex-end;
+  }
+}
+
