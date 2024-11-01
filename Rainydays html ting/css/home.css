@@ -140,10 +140,10 @@ html, body{
     }
   
    
-  .btn {
+  .hero .btn {
 color:  rgb(81, 97, 98);
 font-size: 12px;
-border-color: rgb(81, 97, 98);
+border: 2px solid rgb(81, 97, 98);
 justify-content: center;
 align-items: flex-end;
   }
