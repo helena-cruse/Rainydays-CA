@@ -156,6 +156,10 @@ footer {
 
     }
 
+    .About-us img {
+      margin: 0;
+    }
+
     p {
       margin: 10px;
       margin-top: 8px;
