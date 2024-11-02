@@ -132,7 +132,6 @@ footer {
       overflow-x: hidden;
     }
     .navbar {
-      display: flex;
       padding: 0;
       width: 100%;
 
@@ -162,7 +161,7 @@ footer {
     .icons {
       width: 30%;
       gap: 5px;
-      flex: auto;
+
   
     }
 
