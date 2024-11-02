@@ -139,25 +139,26 @@ footer {
     }
 
     .nav-left {
-      width: 33.33%;
+      flex: 1;
 
     }
 
     .nav-left ul {
-      width: 33.33%;
+      
       gap: 5px;
       font-size: 8px;
       
     }
 
     .logo {
-      width: 33.33%;
+      gap: 5px;
       flex: 2;
     }
 
     .icons {
       width: auto;
       gap: 5px;
+      flex: auto;
   
     }
 
