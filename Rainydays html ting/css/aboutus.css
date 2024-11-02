@@ -139,7 +139,8 @@ footer {
     }
 
     .nav-left {
-      flex: 1;
+    width: 30%;
+    font-size: 8px;
 
     }
 
