@@ -154,19 +154,18 @@ footer {
     }
 
     .logo {
-      gap: 5px;
+      padding: 5px;
       width: 23.85%;
     }
 
     .icons {
       width: 30%;
-      gap: 5px;
 
   
     }
 
     .icons img {
-
+      gap 5px
     }
 
 
