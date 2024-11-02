@@ -132,40 +132,53 @@ footer {
       overflow-x: hidden;
     }
     .navbar {
+      display: flex;
       padding: 0;
       width: 100%;
 
     }
 
     .nav-left {
-    width: 30%;
-    font-size: 8px;
+    flex: 1;
+    
+    
+    }
 
+    .nav-left ul {
+      
+      gap: 5px;
+      
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      margin-left: 10px;
+     
+      
     }
 
     .nav-left ul li a {
-      
-      gap: 5px;
       font-size: 10px;
-      width: 30%;
-      margin: 0;
-      padding: 0;
-      
     }
 
     .logo {
       padding: 5px;
-      width: 23.85%;
+      width: auto;
     }
 
     .icons {
-      width: 30%;
+      flex: 1;
+      gap: 17px;
+      justify-content: flex-end;
+      margin-right: 10px;
+    
+    
 
   
     }
 
     .icons img {
       gap: 5px;
+      width: 100%;
     }
 
 
@@ -175,7 +188,7 @@ footer {
       justify-content: center;
       align-items: center;
       width: 150px;
-      margin-left: 0;
+      margin-left: 30%;
       margin-top: 0;
     }
 
@@ -190,9 +203,9 @@ footer {
 
     p {
       margin: 10px;
-      margin-top: 8px;
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
       font-size: 14px;
     }
 

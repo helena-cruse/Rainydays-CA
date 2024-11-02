@@ -23,6 +23,7 @@ html, body{
   padding-bottom: 0;
   margin-bottom: 0;
   background-color: white;
+  
 }
 
 .nav-left ul {
@@ -130,8 +131,66 @@ html, body{
   @media (max-width: 768px) {
 
     body {
+      overflow-x: hidden;
       margin: 0;
+
     }
+    .navbar {
+      display: flex;
+      padding: 0;
+      width: 100vw;
+
+    }
+
+    .nav-left {
+    flex: 1;
+    
+    
+    }
+
+    .nav-left ul {
+      
+      gap: 5px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      margin-left: 10px;
+    }
+
+    .nav-left ul li {
+      margin: 0;
+
+    }
+
+
+    .nav-left ul li a {
+      font-size: 10px;
+    }
+
+    .logo {
+      padding: 5px;
+      width: auto;
+      height: 50%;
+      margin-right: 3px;
+      margin-left: 3px;
+    }
+
+    .icons {
+      flex: 1;
+      gap: 17px;
+      justify-content: flex-end;
+      margin-right: 10px;
+  
+    }
+
+    .icons img {
+      gap: 5px;
+      width: 100%;
+    }
+
+
+
+    
 
     .hero-text {
     color: rgb(81, 97, 98);

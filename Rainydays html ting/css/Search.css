@@ -1,85 +1,53 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    margin: 0;
+  background-color: white;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+p {
+font-size: 20%;
+}
+.text {
+  font-size: 50px;
+
 }
 
-/* navigatoin header */
+.btn-home {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: transparent;
+  border: 3px solid black;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  transition: background-color 0,3s ease;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-right: 20px;
 
 
-.logo {
-    width: 140px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    align-self: center;
-  }
+}
+
+
+
+
   
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   width: 100%;
-    height: 80px;
-    padding: 0 40px;
-    background-color: white;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  }
- 
-  .nav-left ul {
-    list-style: none;
-    display: flex;
-    gap: 70px;
-    padding: 0;
-    margin: 0;
-  }
+    @media (max-width: 768px) {
+
+      body {
+        overflow-x: hidden;
+      }
   
-  .nav-left ul li a {
-    text-decoration: none;
-    color: rgb(81, 97, 98);
-    font-weight: bold;
-    font-size: 16px;
-  }
   
-  .nav-left ul li a:hover {
-    color: lightgray;
-  }
-  
-  .icons {
-    display: flex;
-    gap: 70px;
-    padding: 0;
-    margin: 0;
-    align-items: flex-end;
-  }
-  
-  .icons img {
-    width: 45px;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    transform: scale(0.5);
-    transform-origin: center;
-  }
 
-
-  p {
-    align-items: center;
-    font-size: 40px;
-    margin-top: 150px;
-    margin-left: 350px;
-  }
-
-
-
-
-
-  @media (max-width: 768px) {}
-    
-
+      img {
+        margin-top: 50px;
+        width: 40%;
+      }
+    }
