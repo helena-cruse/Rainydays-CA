@@ -143,16 +143,16 @@ footer {
 
     }
 
-    .nav-left ul {
+    .nav-left ul li a {
       
       gap: 5px;
-      font-size: 8px;
+      font-size: 10px;
       
     }
 
     .logo {
       gap: 5px;
-      flex: 2;
+      width: 23.85%;
     }
 
     .icons {
