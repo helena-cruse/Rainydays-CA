@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Product details">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
     <link rel="icon" href="Rainydays html ting/pictures/favicon-32x32.png" type="image/png">
-    <title>Cart</title>
-    <link rel="stylesheet"href="Rainydays html ting/css/cart.css">
+    <link rel="stylesheet" href="Rainydays html ting/css/spesific.tim.css">
 </head>
 <body>
-    <header class="navbar">
+    <header class="navbar"> 
+        <!-- Navigation Links -->
         <nav class="nav-left">
             <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -16,7 +18,9 @@
                 <li><a href="Contact.html">CONTACT</a></li>
             </ul>
         </nav>
+        <!-- Logo Section -->
         <img src="Rainydays html ting/pictures/RainyDays_Logo.png" alt="Rainydays Logo" class="logo">
+        <!-- Icons Section -->
         <div class="icons">
             <a href="listsofproducts.html">
                 <img src="Rainydays html ting/pictures/Group.png" alt="Shop Icon">
@@ -29,26 +33,22 @@
             </a>
         </div>
     </header>
-
     <main>
-        <section id="cart">
-            <h1>Your Shopping Cart</h1>
-            <div id="cart-items">
-                <!-- Produktene vil bli lastet inn dynamisk -->
-            </div>
-            <p id="cart-total">Total: 0 NOK</p>
-            <button id="checkout-btn">Proceed to Checkout</button>
+        <section id="product-details">
+            <p id="loading">Loading product details...</p>
         </section>
     </main>
     <footer class="footer">
-        <p class="footer-text">We're more than just a brand; we're a community of adventurers.</p>
-        <p class="footer-text">Thank you for choosing RainyDays. Let's push the comfort zone together.</p>
+        <p class="footer-text">
+            We're more than just a brand; we're a community of adventurers. Thank you for choosing RainyDays.
+        </p>
         <div class="footer-links">
             <a href="Aboutus.html">About Us</a>
-            <a href="Terms-of-service.html">Terms of Service</a>
+            <a href="Terms-of-sevice.html">Terms of Service</a>
             <a href="listsofproducts.html">Shop</a>
         </div>
     </footer>
-    <script src="js/cart.js" defer></script>
+
+    <script src="js/product.js" defer></script>
 </body>
 </html>
