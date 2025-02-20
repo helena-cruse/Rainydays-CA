@@ -18,7 +18,6 @@ html, body {
   color: var(--text-color);
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   align-items: center;
@@ -73,7 +72,7 @@ html, body {
 
 .icons img:hover {
   transform: scale(1.1);
-  filter: brightness(0.8); /* Litt lysere ved hover */
+  filter: brightness(0.8);
 }
 
 

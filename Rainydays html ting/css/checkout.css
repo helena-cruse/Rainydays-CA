@@ -1,4 +1,4 @@
-/* General Styles */
+
 :root {
   --primary-color: #517f85;
   --secondary-color: #ffffff;
@@ -16,7 +16,6 @@ html, body {
   color: var(--text-color);
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   align-items: center;
@@ -74,7 +73,6 @@ html, body {
   filter: brightness(0.8);
 }
 
-/* Progress Bar */
 .checkout-progress {
   display: flex;
   justify-content: center;
@@ -95,7 +93,6 @@ html, body {
   color: var(--secondary-color);
 }
 
-/* Checkout Container */
 .checkout-container {
   display: flex;
   justify-content: space-between;
@@ -107,8 +104,6 @@ html, body {
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Left Section: Shipping & Payment */
 .checkout-left {
   width: 60%;
   display: flex;
@@ -134,7 +129,7 @@ html, body {
 
 .adress-form input,
 .card-details input {
-  width: calc(100% - 20px); /* Ensure consistent padding */
+  width: calc(100% - 20px);
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid var(--accent-color);
@@ -147,7 +142,7 @@ html, body {
   margin-left: 10px;
 }
 
-/* Right Section: Order Summary */
+
 .checkout-right {
   width: 35%;
   padding: 20px;
@@ -193,7 +188,6 @@ html, body {
   background-color: var(--button-hover-color);
 }
 
-/* Footer */
 .footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);

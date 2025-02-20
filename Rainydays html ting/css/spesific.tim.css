@@ -1,4 +1,4 @@
-/* General Styles */
+
 :root {
   --primary-color: #517f85;
   --secondary-color: #ffffff;
@@ -18,7 +18,6 @@ html, body {
   color: var(--text-color);
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   align-items: center;
@@ -76,7 +75,6 @@ html, body {
   filter: brightness(0.8);
 }
 
-/* Main Content */
 main {
   padding: 20px;
   max-width: 1200px;
@@ -114,7 +112,6 @@ main {
   margin: 10px 0;
 }
 
-/* Size Selector */
 .size-selector {
   display: flex;
   gap: 10px;
@@ -143,7 +140,6 @@ main {
   color: var(--secondary-color);
 }
 
-/* Buttons */
 .button-container {
   display: flex;
   gap: 15px;
@@ -170,7 +166,6 @@ main {
   transform: scale(1.05);
 }
 
-/* Footer */
 .footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);

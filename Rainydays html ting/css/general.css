@@ -1,10 +1,10 @@
-/* General styles */
+
 :root {
-    --primary-color: #516162; /* Mørk grågrønn */
-    --secondary-color: #ffffff; /* Hvit */
-    --accent-color: #88c0d0; /* Lys blå */
-    --dark-accent-color: #4c566a; /* Dyp grå */
-    --background-color: #f4f4f4; /* Lys grå bakgrunn */
+    --primary-color: #516162;
+    --secondary-color: #ffffff;
+    --accent-color: #88c0d0;
+    --dark-accent-color: #4c566a;
+    --background-color: #f4f4f4;
     --button-hover-color: #eceff4;
     --font-family: 'Arial', sans-serif;
 }
@@ -28,7 +28,6 @@ ul {
     margin: 0;
 }
 
-/* Utility classes */
 .container {
     max-width: 1200px;
     margin: 0 auto;
