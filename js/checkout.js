@@ -51,7 +51,7 @@ async function displayCheckoutCart() {
 document.getElementById("complete-order-btn").addEventListener("click", () => {
     alert("Thank you for your purchase!");
     clearCheckoutCart();
-    window.location.href = "checkout-success.html";
+    window.location.href = "checkout-succes.html";
 });
 
 displayCheckoutCart();
